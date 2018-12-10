@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class myClass {
+    public:
+        string name;
+};
+
+int main() {
+    myClass myObj;
+    myClass myage;
+    myClass myweight;
+    myObj.name = "Arjen\n";
+    myage.name ="50 years old\n";
+    myweight.name ="150 lbs\n";
+    cout << myObj.name;
+    cout << myage.name;
+    cout << myweight.name;
+    return 0;
+}
